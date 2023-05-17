@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Form from "./Form";
+// import Form from "./Form";
 import Card from "./Card";
 
 const WeatherPanel = () => {
@@ -46,7 +46,7 @@ const WeatherPanel = () => {
 
   return (
     <React.Fragment>
-      <Form />
+      {/* <Form /> */}
       <Card showData={show} loadingData={loading} weather={weather} forecast={forecast} />
     </React.Fragment>
   );
