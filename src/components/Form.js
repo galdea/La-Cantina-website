@@ -1,11 +1,13 @@
 import React, {useState} from "react";
 
-const Form = () => {
+const Form = (newLocation) => {
     const [location, setLocation] = useState("");
     const onSubmit = (e) => {
         e.preventDefault();
         console.log({location});
     if (location === "" || !location) return;
+
+    newLocation(location);
     }
 
     return (

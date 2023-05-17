@@ -1,11 +1,11 @@
 import NavBar from './components/NavBar.js'
-import Form from './components/Form.js'
+import WeatherPanel from './components/WeatherPanel.js'
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <Form />
+      <WeatherPanel />
     </div>
   );
 }
