@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #2F3544;
+}
+
+.input-group {
+  width: 60%;
+}
+
+.card {
+  max-width: 80%;
+}
+
+.card-title {
+  position: absolute;
+
+  padding: 20px;
+}
+
+.card-date{
+  position: absolute;
+  padding-left: 20px;
+  margin-top: 60px;
+  font-style: italic;
+}
+
+.card-desc{
+  position:absolute;
+  padding-left:15git initpx;
+  margin-top:80px;
+  font-style: italic;
+}
+
+.card-temp{
+  position:absolute;
+  padding-left: 20px;
+  margin-top:320px;
+  font-size: 50px;
+}
+.card-sunrise{
+  position: absolute;
+  font-size: small;
+  margin-top:380px;
+  padding-left:20px;
+  font-style: italic;
+}
+
+.card-sunset{
+  position: absolute;
+  font-size: small;
+  margin-top:395px;
+  padding-left:20px;
+  font-style: italic;
+}
+
+.card-text{
+  font-size:small;
+}
