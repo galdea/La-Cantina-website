@@ -29,7 +29,7 @@ body {
 
 .card-desc{
   position:absolute;
-  padding-left:15;
+  padding-left:15px;
   margin-top:80px;
   font-style: italic;
 }
